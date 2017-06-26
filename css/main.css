@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center; }
+
+.box {
+  margin: 1rem; }
+
+.clearfix::after {
+  content: " ";
+  display: block;
+  clear: both; }
+
+.navigate-slide button, .navigate-slide a {
+  font-size: 1rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  border: 1px solid #CCC;
+  background-color: #EEE;
+  text-decoration: none; }
+
+.navigate-slide button:hover {
+  background-color: #DDD; }
+.navigate-slide a {
+  background-color: cornflowerblue;
+  border: 1px solid royalblue; }
+  .navigate-slide a:hover {
+    background-color: #DDD; }
+
+ul {
+  list-style: none;
+  padding: 0; }
+  ul li {
+    display: inline; }
+    ul li a {
+      display: block;
+      text-decoration: none;
+      border: 1px solid #CCC;
+      padding: 0.5rem;
+      margin: 0 0 0.3rem; }
+      ul li a:hover {
+        background-color: #CCC; }
+
+figure {
+  margin: 1rem 0; }
+  figure img {
+    width: 100%;
+    height: auto; }
+
+@media screen and (min-width: 35rem) {
+  header ul li a {
+    width: calc(33.33% - 0.3rem + 0.1rem);
+    float: left;
+    margin: 0 0.3rem 0 0; }
+  header ul li:last-child a {
+    margin: 0; } }
+
+/*# sourceMappingURL=main.css.map */
